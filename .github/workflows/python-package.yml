@@ -43,7 +43,4 @@ jobs:
         pip install -r requirements.txt
     - name: Test with pytest
       run: |
-        pip install pytest
-        pip install pytest-cov
-        pytest tests/numbers_to_dec.py
-        pytest tests/test_numbers_to_dec.py
+        pytest tests/
